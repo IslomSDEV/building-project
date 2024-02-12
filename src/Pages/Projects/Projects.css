@@ -1,0 +1,36 @@
+.projects {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 150px 0 50px 0;
+}
+
+.projects_titleand_info_flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+
+.projects_title {
+    font-size: 70px;
+    color: #202020;
+}
+
+.projects_info {
+    font-size: 22px;
+    max-width: 890px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    color: #202020d8;
+}
+
+.projects_card_flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 60px 0;
+}

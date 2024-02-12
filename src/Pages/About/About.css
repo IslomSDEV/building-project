@@ -1,0 +1,164 @@
+.about {
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .2)), url('../../assets/Images/abput_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 150px 0 50px 0;
+}
+
+.about_title {
+    font-size: 110px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    max-width: 650px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.about_text {
+    font-size: 25px;
+    color: #eeeeee;
+    max-width: 880px;
+    line-height: 35px;
+    letter-spacing: 1.2px;
+    margin-bottom: 60px;
+}
+
+
+.about_skachat_btn {
+    border: 2px solid var(--main-color-yellow);
+    background-color: var(--main-color-yellow);
+    color: #fff;
+    width: 340px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    font-size: 21px;
+    gap: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.about_skachat_icon {
+    font-size: 40px;
+}
+
+.about_skachat_btn:hover {
+    background-color: transparent;
+    color: var(--main-color-yellow);
+}
+
+.about_info {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.about_info_flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about_info_picture_box {
+    width: 952px;
+    height: 489px;
+    margin-top: 30px;
+    box-shadow: 20px -20px 0 0 var(--main-color-yellow);
+}
+
+.about_info_text {
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 1.4px;
+    max-width: 950px;
+    color: #2e2e2e;
+    margin-top: 30px;
+    margin-bottom: 56px;
+}
+
+.about_category {
+    width: 100%;
+    padding: 100px 0;
+    background-image: url('../../assets/Images/bg-mission.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about_category_flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_category_card_flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+
+.about_category_card_flex:last-child{
+    margin-bottom: 100px;
+}
+
+.about_category_card_left {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.about_card_flex_number_div {
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-color-yellow);
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_card_flex_info_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_card_flex_info_text {
+    font-size: 25px;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+    max-width: 500px;
+    color: #2e2e2eda;
+}
+
+.about_card_flex_info_title {
+    font-size: 40px;
+    color: #2e2e2e;
+    margin-bottom: 50px;
+}
+
+.about_category_image {
+    width: 900px;
+}
+
+
+.result {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.result_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.result_card {
+    width: 360px;
+    height: 250px;
+}

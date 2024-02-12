@@ -1,0 +1,35 @@
+.contact {
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .2)), url('../../assets/Images/abput_bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+}
+
+.contact_title {
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.contacts_text {
+    width: 800px;
+    color: #e7e7e7;
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+
+.contact_bottom_btn {
+    padding: 15px 20px;
+    border: 1.6px solid var(--main-color-yellow);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contact_arrow_icon {
+    font-size: 30px;
+    color: var(--main-color-yellow);
+}

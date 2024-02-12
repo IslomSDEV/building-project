@@ -1,0 +1,163 @@
+.footer {
+    width: 100%;
+    padding: 30px 0 30px 0;
+    position: relative;
+}
+
+.footer_map {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    bottom: 0;
+    width: 800px;
+    /* height: 480px; */
+}
+
+.footer_flex {
+    width: 100%;
+    display: flex;
+}
+
+
+.footer_left {
+    width: 60%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.loc_tel_date_box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+
+
+.footer_icon {
+    font-size: 40px;
+    margin-right: 16px;
+    color: var(--main-color-yellow);
+}
+
+
+.location_box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.location_box:nth-child(2) {
+    width: 240px;
+}
+
+
+.location_info_box {
+    width: 250px;
+}
+
+.location_title {
+    font-size: 27px;
+    color: #2c2c2c;
+    margin-bottom: 15px;
+}
+
+.location_info {
+    font-size: 20px;
+    color: #52525293;
+}
+
+
+.form_div {
+    width: 880px;
+    padding: 35px 50px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 2px #72727234;
+    margin-top: 160px;
+}
+
+
+.footer_form {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.foter_label {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    gap: 10px;
+    color: #2c2c2c;
+}
+
+
+
+.footer_input {
+    padding: 8px 30px;
+    background-color: #bbbbbb2c;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #2c2c2c;
+    width: 300px;
+    margin-right: 20px;
+    height: 60px;
+}
+
+ 
+
+.footer_input::placeholder {
+    color: #2c2c2ccc;
+}
+
+.f_phone_Input {
+    padding-left: 60px;
+}
+
+.footer_button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--main-color-yellow);
+    height: 60px;
+    width: 141px;
+    cursor: pointer;
+}
+
+
+.phone_number_f {
+    position: relative;
+}
+
+.phone_number_f::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 20px;
+    top: 55%;
+    left:15px;
+    background-image: url('../../assets/Images/uzb-flag.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 4px;
+}
+
+
+.footer_copyright {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    justify-content: center;
+    border-top: 1px solid #f1f1;
+}
+
+.footer_copyright_text {
+    font-size: 20px;
+    color: #2c2c2cd5;
+}

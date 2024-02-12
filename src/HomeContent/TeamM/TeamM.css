@@ -1,0 +1,42 @@
+.teamm {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.slick_card {
+    margin-top: 100px;
+    width: 350px !important;
+    min-height: 450px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.img_boc_team {
+    height: 400px;
+    width: 300px;
+}
+
+.img_boc_team > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.job_and_name {
+    width: 300px;
+}
+
+.team_name{
+    font-size: 30px;
+    color: #202020;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.team_job {
+    font-size: 20px;
+    color: #202020;
+}
